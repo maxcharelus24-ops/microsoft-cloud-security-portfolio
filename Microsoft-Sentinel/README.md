@@ -38,7 +38,7 @@ The following screenshots document Microsoft Sentinel security monitoring and th
 
 The incident dashboard shows security alerts generated from scheduled detection rules, including privileged role activity, multiple failed login attempts, and brute-force detection.
 
-![Microsoft Sentinel Security Incidents](screenshots/sentinel-security-incidents.png)
+![Microsoft Sentinel Security Incidents](screenshots/sentinel-security-incidents.png.png)
 
 ### 2. Analytics Rules
 
@@ -49,13 +49,13 @@ Configured scheduled analytics rules for:
 
 The screenshot shows three enabled analytics rules.
 
-![Microsoft Sentinel Analytics Rules](screenshots/sentinel-analytics-rules.png)
+![Microsoft Sentinel Analytics Rules](screenshots/sentinel-analytics-rules.png.png)
 
 ### 3. Sign-in Event Investigation
 
 Reviewed Microsoft Entra ID authentication events, including failed sign-ins, result codes, application details, and event timestamps.
 
-![Microsoft Sentinel Sign-in Investigation](screenshots/sentinel-signin-investigation.png)
+![Microsoft Sentinel Sign-in Investigation](screenshots/sentinel-signin-investigation.png.png)
 
 ### 4. Log Analytics and Security Monitoring
 
@@ -63,7 +63,7 @@ Used Microsoft Sentinel Logs to examine authentication activity collected from M
 
 The results show successful and failed sign-in events that can support identity threat investigations.
 
-![Microsoft Sentinel Log Analytics](screenshots/sentinel-log-analytics.png)
+![Microsoft Sentinel Log Analytics](screenshots/sentinel-log-analytics.png.png)
 
 ## Evidence and Validation Notes
 
