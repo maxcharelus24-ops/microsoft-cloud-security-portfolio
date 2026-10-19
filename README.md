@@ -12,8 +12,18 @@ These lab projects demonstrate my experience implementing identity security cont
 - Security Monitoring and Threat Detection (Microsoft Sentinel)
 - Microsoft 365 Security and Hardening
 
+
+
 ## Projects
 
-Detailed project documentation, configuration screenshots, and validation results will be added as the portfolio develops.
+### 1. [Microsoft Entra ID Security](Entra-ID-Security/README.md)
+Implemented and documented identity security configurations, including Conditional Access, multi-factor authentication (MFA), and location-based access restrictions.
 
-All demonstrations are performed in controlled lab environments.
+### 2. [Microsoft Intune Endpoint Security](Intune-Endpoint-Security/README.md)
+Configured and documented Windows endpoint security policies covering device compliance, BitLocker encryption, and Microsoft Defender Antivirus.
+
+### 3. [Microsoft Sentinel - Security Monitoring & Threat Detection](Microsoft-Sentinel/README.md)
+Configured security analytics rules, investigated Microsoft Entra ID sign-in activity, and reviewed security incidents using Microsoft Sentinel and Azure Log Analytics.
+
+All projects were performed in controlled lab environments. Documentation includes configuration evidence, screenshots, and validation notes where available.
+
