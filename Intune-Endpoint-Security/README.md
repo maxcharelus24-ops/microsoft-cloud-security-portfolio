@@ -62,7 +62,7 @@ Configured compliance requirements for:
 - Firewall and antivirus protection
 - Microsoft Defender Antimalware
 
-![Windows 11 Device Compliance Policy](screenshots/intune-device-compliance-policy.png)
+![Windows 11 Device Compliance Policy](Intune-Endpoint-Security/screenshots/intune-windows-compliance-policy.png)
 
 ### 2. BitLocker Drive Encryption
 
@@ -72,7 +72,7 @@ Configured device encryption requirements, XTS-AES 128-bit encryption, and opera
 
 The lab VM was independently verified as encrypted, with BitLocker protection enabled and its recovery key backed up to Microsoft Entra ID.
 
-![BitLocker Encryption Policy](screenshots/intune-bitlocker-encryption-policy.png)
+![BitLocker Encryption Policy](Intune-Endpoint-Security/screenshots/intune-bitlocker-encryption-policy.png)
 
 ### 3. Microsoft Defender Antivirus
 
@@ -87,7 +87,7 @@ Configured antivirus protection settings including:
 - Scheduled quick scans
 - Network protection
 
-![Microsoft Defender Antivirus Policy](screenshots/intune-defender-antivirus-policy.png)
+![Microsoft Defender Antivirus Policy](Intune-Endpoint-Security/screenshots/intune-defender-antivirus-policy.png)
 
 ## Deployment and Validation Status
 
