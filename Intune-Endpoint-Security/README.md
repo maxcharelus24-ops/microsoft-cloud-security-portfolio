@@ -101,7 +101,7 @@ The screenshots document policy configuration and assignment, not confirmed enfo
 
 Five Windows 11 virtual machines representing different business departments were enrolled in Microsoft Intune and validated as compliant.
 
-All five devices were confirmed as Intune-managed and corporate-owned.
+All five devices were confirmed as Intune-managed and corporate owned.
 
 ![Five Windows devices managed and compliant in Intune](Intune-Endpoint-Security/screenshots/intune-five-devices-compliant.png)
 
