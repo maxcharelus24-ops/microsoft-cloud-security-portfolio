@@ -94,3 +94,47 @@ This lab demonstrates a practical approach to protecting confidential informatio
 By combining custom data classification, advanced policy conditions, simulation testing, enforcement, and alert investigation, the project validates the ability to configure and test controls designed to reduce unauthorized disclosure of sensitive business information.
 
 **Environment:** Personal Microsoft 365 security lab using synthetic test data. No production or client information was used.
+
+
+## Lab Evidence & Screenshots
+
+The following screenshots document the implementation, testing, and enforcement of the BlueCore Confidential Data Protection policy in a Microsoft 365 test environment.
+
+### 1. Custom Sensitive Information Type Detection
+Created and validated a custom sensitive information type (SIT) to identify confidential BlueCore record identifiers.
+
+![Custom SIT Detection](images/01-Custom-SIT-Detection.png)
+
+### 2. DLP Policy Configuration
+Configured the BlueCore Confidential Data Protection policy for Exchange Online, initially using simulation mode to evaluate policy matches.
+
+![DLP Policy Configuration](images/02-DLP-Policy-Configuration.png)
+
+### 3. DLP Policy Creation
+Successfully created the custom DLP policy in Microsoft Purview.
+
+![DLP Policy Created](images/03-DLP-Policy-Created.png)
+
+### 4. DLP Simulation Results
+Validated that the policy detected a matching Exchange Online email during simulation.
+
+![DLP Simulation First Match](images/04-DLP-Simulation-First-Match.png)
+
+### 5. Sensitive Information Match Details
+Reviewed the matching email, triggered DLP rule, and custom sensitive information type detection results.
+
+![DLP Simulation Match Details](images/05-DLP-Simulation-Match-Details.png)
+
+### 6. DLP Alert Investigation
+Reviewed the DLP alert generated for an email containing the confidential record identifier.
+
+![DLP Security Alert](images/06-DLP-Security-Alert.png)
+
+### 7. External Email Blocking Validation
+Validated DLP enforcement by attempting to send a confidential record identifier externally. Exchange Online rejected the message due to the organization's DLP policy.
+
+![External Email Blocked](images/07-DLP-External-Email-Blocked.png)
+
+## Lab Outcome
+
+Successfully demonstrated the Microsoft Purview DLP lifecycle: custom sensitive information identification, policy configuration, simulation testing, match investigation, alert generation, and enforcement of external email restrictions.
