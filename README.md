@@ -24,7 +24,7 @@ Configured and documented Windows endpoint security policies covering device com
 ### 3. [Microsoft Sentinel - Security Monitoring & Threat Detection](Microsoft-Sentinel/README.md)
 Configured security analytics rules, investigated Microsoft Entra ID sign-in activity, and reviewed security incidents using Microsoft Sentinel and Azure Log Analytics.
 
-4. **[Microsoft Purview DLP – Confidential Data Protection](Microsoft-Purview-DLP/)**
+### 4. [Microsoft Purview DLP – Confidential Data Protection](Microsoft-Purview-DLP/)**
 Implemented and validated Microsoft Purview Data Loss Prevention (DLP) controls using a custom sensitive information type, Exchange Online policy simulation, alert investigation, and enforcement testing to prevent unauthorized external sharing of confidential records.
 
 All projects were performed in controlled lab environments. Documentation includes configuration evidence, screenshots, and validation notes where available.
