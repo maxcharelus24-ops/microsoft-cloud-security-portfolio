@@ -103,37 +103,37 @@ The following screenshots document the implementation, testing, and enforcement 
 ### 1. Custom Sensitive Information Type Detection
 Created and validated a custom sensitive information type (SIT) to identify confidential BlueCore record identifiers.
 
-![Custom SIT Detection](images/01-Custom-SIT-Detection.png)
+![Custom SIT Detection](images/01-Custom-SIT-Detection.png.png)
 
 ### 2. DLP Policy Configuration
 Configured the BlueCore Confidential Data Protection policy for Exchange Online, initially using simulation mode to evaluate policy matches.
 
-![DLP Policy Configuration](images/02-DLP-Policy-Configuration.png)
+![DLP Policy Configuration](images/02-DLP-Policy-Configuration.png.png)
 
 ### 3. DLP Policy Creation
 Successfully created the custom DLP policy in Microsoft Purview.
 
-![DLP Policy Created](images/03-DLP-Policy-Created.png)
+![DLP Policy Created](images/03-DLP-Policy-Created.png.png)
 
 ### 4. DLP Simulation Results
 Validated that the policy detected a matching Exchange Online email during simulation.
 
-![DLP Simulation First Match](images/04-DLP-Simulation-First-Match.png)
+![DLP Simulation First Match](images/04-DLP-Simulation-First-Match.png.png)
 
 ### 5. Sensitive Information Match Details
 Reviewed the matching email, triggered DLP rule, and custom sensitive information type detection results.
 
-![DLP Simulation Match Details](images/05-DLP-Simulation-Match-Details.png)
+![DLP Simulation Match Details](images/05-DLP-Simulation-Match-Details.png.png)
 
 ### 6. DLP Alert Investigation
 Reviewed the DLP alert generated for an email containing the confidential record identifier.
 
-![DLP Security Alert](images/06-DLP-Security-Alert.png)
+![DLP Security Alert](images/06-DLP-Security-Alert.png.png)
 
 ### 7. External Email Blocking Validation
 Validated DLP enforcement by attempting to send a confidential record identifier externally. Exchange Online rejected the message due to the organization's DLP policy.
 
-![External Email Blocked](images/07-DLP-External-Email-Blocked.png)
+![External Email Blocked](images/07-DLP-External-Email-Blocked.png.png)
 
 ## Lab Outcome
 
