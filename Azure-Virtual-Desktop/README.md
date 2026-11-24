@@ -155,3 +155,41 @@ This project demonstrates practical experience deploying virtual desktop infrast
 ## Lab Environment Disclaimer
 
 BlueCore Security is a fictional enterprise environment created exclusively for technical training, professional development, and portfolio demonstrations. No production client data is used.
+
+## Deployment Screenshots
+
+### 1. Azure Virtual Network and Subnet Configuration
+
+Dedicated network addressing configured for the AVD session host infrastructure.
+
+![Azure Virtual Network Configuration](screenshots/AVD%20network%20addressing.png)
+
+### 2. Azure Virtual Desktop Host Pool Deployment
+
+Pooled host pool configured with breadth-first load balancing and a maximum session limit of two users.
+
+![AVD Host Pool Deployment](screenshots/Deployed%20AVD%20host%20pool.png)
+
+### 3. Session Host Availability
+
+Successfully deployed and registered session host showing a healthy and available state.
+
+![AVD Session Host Availability](screenshots/AVD-Session-Host-Available.png)
+
+### 4. Azure Role-Based Access Control
+
+Configured Virtual Machine User Login permissions to authorize standard user access to the session host.
+
+![Azure RBAC Configuration](screenshots/AVD-VM-User-Login-RBAC.png)
+
+### 5. Desktop Application Group Assignment
+
+Configured application group assignments to provide authorized users with access to the published virtual desktop.
+
+![AVD Application Group Assignment](screenshots/AVD-Desktop-Application-Group-Assignment.png)
+
+### 6. Successful Virtual Desktop Connection
+
+Validated end-user connectivity to the Azure Virtual Desktop environment through Windows App.
+
+![Successful AVD Desktop Connection](screenshots/AVD-01-Successful-Desktop-Connection.png)
