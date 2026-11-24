@@ -1,8 +1,8 @@
 # Microsoft Cloud & Cybersecurity Portfolio
 
-Welcome to my technical portfolio showcasing hands-on projects in Microsoft Azure, Entra ID, Intune, Microsoft Sentinel, Microsoft Purview, and Microsoft 365 security.
+Welcome to my technical portfolio showcasing hands-on projects in Microsoft Azure, Entra ID, Intune, Microsoft Sentinel, Microsoft Purview, Azure Virtual Desktop, and Microsoft 365 security.
 
-These lab projects demonstrate my experience implementing identity security controls, securing endpoints, monitoring threats, investigating security events, and protecting sensitive information through Data Loss Prevention (DLP) policies.
+These lab projects demonstrate my experience deploying cloud infrastructure, implementing identity security controls, securing endpoints, monitoring threats, investigating security events, protecting sensitive information through Data Loss Prevention (DLP) policies, and implementing cloud-based virtual desktop environments.
 
 ## Areas of Focus
 
@@ -12,6 +12,8 @@ These lab projects demonstrate my experience implementing identity security cont
 - Security Monitoring and Threat Detection (Microsoft Sentinel)
 - Data Loss Prevention and Information Protection (Microsoft Purview)
 - Microsoft 365 Security and Hardening
+- Azure Virtual Desktop Deployment and Security
+- Azure Infrastructure and FSLogix Profile Management
 
 ## Projects
 
@@ -24,8 +26,11 @@ Configured and documented Windows endpoint security policies covering device com
 ### 3. [Microsoft Sentinel - Security Monitoring & Threat Detection](Microsoft-Sentinel/README.md)
 Configured security analytics rules, investigated Microsoft Entra ID sign-in activity, and reviewed security incidents using Microsoft Sentinel and Azure Log Analytics.
 
-### 4. [Microsoft Purview DLP – Confidential Data Protection](Microsoft-Purview-DLP/)**
+### 4. [Microsoft Purview DLP – Confidential Data Protection](Microsoft-Purview-DLP/)
 Implemented and validated Microsoft Purview Data Loss Prevention (DLP) controls using a custom sensitive information type, Exchange Online policy simulation, alert investigation, and enforcement testing to prevent unauthorized external sharing of confidential records.
+
+### 5. [Azure Virtual Desktop - Deployment & Security Implementation](Azure-Virtual-Desktop/README.md)
+Deployed and configured an Azure Virtual Desktop environment from scratch, integrating Microsoft Entra ID authentication, Azure RBAC, Azure Files, Microsoft Entra Kerberos, and FSLogix profile containers. Validated multi-user connectivity and persistent user profiles.
 
 All projects were performed in controlled lab environments. Documentation includes configuration evidence, screenshots, and validation notes where available.
 
