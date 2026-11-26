@@ -32,21 +32,9 @@ Implemented and validated Microsoft Purview Data Loss Prevention (DLP) controls 
 ### 5. [Azure Virtual Desktop - Deployment & Security Implementation](Azure-Virtual-Desktop/README.md)
 Deployed and configured an Azure Virtual Desktop environment from scratch, integrating Microsoft Entra ID authentication, Azure RBAC, Azure Files, Microsoft Entra Kerberos, and FSLogix profile containers. Validated multi-user connectivity and persistent user profiles.
 
+### 6. [Microsoft Entra Identity & Application Security](./Entra-Identity-Application-Security/)
+Implemented and validated enterprise identity and application security controls using Microsoft Entra ID, including OpenID Connect authentication, application role-based access control, certificate-based Microsoft Graph authentication, API-driven SCIM provisioning, automated Joiner-Mover-Leaver lifecycle management, and Microsoft Entra External ID for customer identity and access management (CIAM).
 
-### 6. Microsoft Entra Identity & Application Security
-
-Implemented enterprise identity and application security solutions across workforce and customer identity environments using Microsoft Entra ID.
-
-- Enterprise application management and role-based access control
-- OAuth 2.0 and OpenID Connect authentication
-- Certificate-based Microsoft Graph app-only authentication
-- Service principal security and monitoring
-- API-driven inbound identity provisioning using SCIM
-- Automated Joiner-Mover-Leaver (JML) identity lifecycle management
-- Microsoft Entra External ID and Customer Identity and Access Management (CIAM)
-- Application audit and provisioning log analysis
-
-[View Project Documentation and Screenshots](./Entra-Identity-Application-Security/)
 
 
 All projects were performed in controlled lab environments. Documentation includes configuration evidence, screenshots, and validation notes where available.
