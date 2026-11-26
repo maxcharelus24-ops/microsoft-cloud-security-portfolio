@@ -148,9 +148,49 @@ Successfully implemented and validated core enterprise identity engineering work
 
 The project demonstrates secure application authentication, automated employee identity provisioning, identity lifecycle management, and customer authentication using Microsoft Entra technologies.
 
+
 ## Screenshots
 
-Selected screenshots documenting implementation and validation are available in the screenshots directory.
+### Enterprise Application Role Management
+
+![Enterprise Application Roles](screenshots/BCS-Enterprise-Portal-App-Roles.png)
+
+### OIDC Administrator Authentication
+
+![Administrator Dashboard](screenshots/BCS-OIDC-Administrator-Dashboard.png)
+
+### OIDC Employee Authentication
+
+![Employee Dashboard](screenshots/BCS-OIDC-Employee-Dashboard.png)
+
+### Application Security Audit Logs
+
+![Application Audit Logs](screenshots/BCS-OIDC-Application-Audit-Logs.png)
+
+### Certificate-Based App-Only Authentication
+
+![App-Only Authentication](screenshots/BCS-Graph-Automation-AppOnly-Authentication.png)
+
+### Service Principal Sign-In Monitoring
+
+![Service Principal Sign-In](screenshots/BCS-Graph-Automation-Service-Principal-SignIn.png)
+
+### API-Driven Identity Provisioning Configuration
+
+![Provisioning Configuration](screenshots/BCS-HR-Provisioning-API-Configuration.png)
+
+### Automated Employee Onboarding
+
+![Employee Provisioning](screenshots/BCS-HR-API-Employee-Provisioning.png)
+
+### Automated Employee Transfer
+
+![Employee Transfer](screenshots/BCS-HR-API-Employee-Transfer.png)
+
+### Automated Employee Offboarding
+
+![Employee Offboarding](screenshots/BCS-HR-API-Employee-Offboarding.png)
+
 
 ## Lab Environment Disclaimer
 
