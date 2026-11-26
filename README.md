@@ -1,13 +1,19 @@
+
 # Microsoft Cloud & Cybersecurity Portfolio
 
-Welcome to my technical portfolio showcasing hands-on projects in Microsoft Azure, Entra ID, Intune, Microsoft Sentinel, Microsoft Purview, Azure Virtual Desktop, and Microsoft 365 security.
+Welcome to my technical portfolio showcasing hands-on projects in Microsoft Azure, Microsoft Entra ID, Intune, Microsoft Sentinel, Microsoft Purview, Azure Virtual Desktop, and Microsoft 365 security.
 
-These lab projects demonstrate my experience deploying cloud infrastructure, implementing identity security controls, securing endpoints, monitoring threats, investigating security events, protecting sensitive information through Data Loss Prevention (DLP) policies, and implementing cloud-based virtual desktop environments.
+These lab projects demonstrate my experience deploying cloud infrastructure, implementing enterprise identity and application security, automating identity lifecycle management, securing endpoints, monitoring threats, protecting sensitive information, and implementing cloud-based virtual desktop environments.
 
 ## Areas of Focus
 
 - Identity & Access Management (Microsoft Entra ID)
 - Conditional Access and Multi-Factor Authentication
+- Enterprise Application Security and Role-Based Access Control
+- OAuth 2.0 and OpenID Connect (OIDC)
+- Workload Identity and Certificate-Based Authentication
+- API-Driven SCIM Provisioning and Identity Lifecycle Management
+- Customer Identity and Access Management (CIAM)
 - Endpoint Security and Device Management (Microsoft Intune)
 - Security Monitoring and Threat Detection (Microsoft Sentinel)
 - Data Loss Prevention and Information Protection (Microsoft Purview)
